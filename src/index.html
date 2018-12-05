@@ -8,7 +8,6 @@
     <meta name="theme-color" content="#8db4a7">
     <link rel="manifest" href="src/manifest.json">
     <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="src/assets/css/style.min.css">
     <title>Progressive Web App</title>
     <style type="text/css">
     body {
@@ -19,16 +18,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-md-4 offset-md-1">
-                <p>Create a new article</p>
-                <div id="create-article-form">
-                    <!-- form -->
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="app"></div>
     <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
